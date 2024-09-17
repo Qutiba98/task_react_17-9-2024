@@ -1,0 +1,24 @@
+.counter-container {
+  display: flex;
+  align-items: center;
+}
+
+.counter-container button {
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-container span {
+  font-size: 2rem;
+  padding: 0 20px;
+}
+
+.counter-container button:hover {
+  background-color: #21a1f1;
+}

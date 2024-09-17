@@ -1,0 +1,110 @@
+/* General styles for the entire application */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-section {
+  margin: 20px;
+  width: 80%;
+  max-width: 600px; /* Ensure sections do not become excessively wide */
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Styles specific to the Quiz component */
+.quiz-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #e78f0a;
+  border-radius: 5px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.option-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-button {
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(43, 44, 30);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.option-button:hover {
+  background-color: rgb(0, 180, 140);
+}
+
+.score-section {
+  font-size: 1.5rem;
+}
+
+/* Styles for the Calculator component (assuming it’s similar to iPhone calculator) */
+.calculator {
+  max-width: 360px;
+  margin: auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-display {
+  font-size: 2rem;
+  color: white;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.calculator-button {
+  background-color: #555;
+  color: white;
+  padding: 20px;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculator-button:hover {
+  background-color: #666;
+}
+
+.calculator-button.operator {
+  background-color: #f2a365;
+}
+
+.calculator-button.operator:hover {
+  background-color: #f2a365;
+}
